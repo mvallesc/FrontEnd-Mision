@@ -1,0 +1,409 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.home{
+    color:#3858d6;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0 10em 0 0;
+    padding: 2em 0;
+}
+
+.item{
+    color:#6d7b93;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 0 1em;
+    padding: 4em 0;
+}
+
+.menuButton{
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 3em 0;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    background: #3858d6;
+}
+
+.title{
+    color: #1f3e72;
+    font-weight: 900;
+    font-size: 400%;
+    margin: 2em 0 0 3.5em;
+}
+.description{
+    color: #6d7b93;
+    font-weight: normal;
+    font-size: 130%;
+    margin: 1em 0 0 11em;
+    line-height: 150%;
+}
+
+.info{
+    margin: 1em 0 0 14em;
+}
+
+.icon1{
+    width: 1em;
+    height: 1em;
+    padding: 0.5em;
+    background-color: #fffbef;
+    border-radius: 5px;
+    float: left;
+}
+
+.icon1Text{
+    width: 20em;
+    color: #1f3e72;
+    font-weight:bold;
+    font-size: 100%;
+    margin: 0.5em -10em 0 0;
+    padding: 0 0 0 1em;
+    float: left;
+}
+
+.schedule{
+    margin: 10em 0 0 14em;
+}
+
+.icon2{
+    width: 1em;
+    height: 1em;
+    padding: 0.5em;
+    background-color: #dde5ff;
+    border-radius: 5px;
+    float: left;
+}
+
+.icon2Text{
+    width: 20em;
+    color: #1f3e72;
+    font-weight:bold;
+    font-size: 150%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 1em;
+    float: left;
+}
+
+.request{
+    width: 56em;
+    height: 8em;
+    margin: 5em 0 0 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.reqOpt{
+    width: 14em;
+    margin: 2em 0 0 1em;
+    float: left;
+}
+
+.reqOptTitle{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 120%;
+    margin: 0.3em 0 0 2em;
+}
+
+.reqOptText{
+    color: #1f3e72;
+    font-weight:bold;
+    font-size: 150%;
+    margin: 0.5em 0 0 1.5em;
+
+}
+
+.reqButton{
+    color: white;
+    font-size: 120%;
+    margin: 1.7em 0;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    background: #3858d6;
+}
+
+.doctor1{
+    width: 50em;
+    margin: -35em 0 0 10em;
+}
+
+.brand{
+    width: 15em;
+    padding: 4em 2em;
+    filter: opacity(0.2) grayscale(1);
+    margin: auto 0%;
+}
+
+.title2{
+    color: #1f3e72;
+    font-weight: 900;
+    font-size: 200%;
+    margin: 2em 0 0 7em;
+}
+
+.reasons{
+    margin: 5em 0 0 14em;
+}
+
+.reason{
+    border: 3px solid #fbfbff;
+    width: 15em;
+    height: 17em;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    float: left;
+}
+
+.icon3{
+    width:2em;
+    height: 2em;
+    padding: 0.7em;
+    background-color: #dde5ff;
+    border-radius: 8px;
+}
+
+.reasonTitle{
+    color: #1f3e72;
+    font-weight:bold;
+    font-size: 150%;
+    margin: 1em 0 0 0;
+}
+
+.reasonText{
+    color:#6d7b93;
+    font-weight:normal;
+    font-size: 100%;
+    margin: 1em 0 0 0;
+    line-height: 150%;
+}
+
+.title3{
+    margin: 35em 0 0 45em;
+}
+
+.doctor2{
+    width: 45em;
+    margin: -5em 0 0 10em;
+}
+
+.preparation{
+    margin: -36em 0 0 58em;
+    width: 40em;
+}
+
+.step{
+    border: 2px solid #fbfbff;
+    width: 30em;
+    height: 1em;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 10px;
+    float: left;
+}
+
+.stepExpanded{
+    border: 2px solid #fbfbff;
+    width: 30em;
+    height: 6em;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 10px;
+    float: left;
+}
+
+.stepIcon{
+    width: 1em;
+    height: 1em;
+    margin: -0.5em 0 0 0;
+    padding: 0.5em;
+    background-color: #dde5ff;
+    border-radius: 5px;
+    float: left;
+}
+
+.moreIcon{
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.2em 0 0 0;
+    padding: 0.5em;
+    background-color: #dde5ff;
+    border-radius: 5px;
+    float: right;
+}
+
+.moreExp{
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.2em 0 0 0;
+    padding: 0.5em;
+    background-color: #dde5ff;
+    border-radius: 5px;
+    transform: scaleY(-1);
+    filter: opacity(0.8) grayscale(1);
+    float: right;
+}
+
+.stepTitle{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0 0 0 2em;
+    float: left;
+}
+
+.stepText{
+    color: #6d7b93;
+    font-weight: normal;
+    font-size: 90%;
+    margin: 1.5em 0 0 2.5em;
+    line-height: 150%;
+    float: left;
+}
+
+.title4{
+    margin: 50em 0 0 0;
+}
+
+.doctor3{
+    width: 45em;
+    margin: -12em 0 0 55em;
+}
+
+.contact{
+    margin: 10em 0 0 10em;
+    width: 60em;
+}
+
+.contactOpt{
+    border: 2px solid #fbfbff;
+    width: 15em;
+    height: 15em;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    float: left;
+}
+
+.icon4{
+    width:2em;
+    height: 2em;
+    padding: 1em;
+    margin: 1.3em 0 0 1em;
+    background-color: #dde5ff;
+    border-radius: 8px;
+    float: left;
+}
+
+.contactTitle{
+    color: #1f3e72;
+    font-weight:bold;
+    font-size: 150%;
+    width: 5em;
+    margin: 1em 0 0 1em;
+    float: left;
+}
+
+.contactText{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 100%;
+    width: 5em;
+    margin: 0.5em 0 0 1.5em;
+    float: left;
+}
+
+.contactButton{
+    color: #3858d6;
+    font-weight: bold;
+    font-size: 140%;
+    margin: 3em 0.5em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    background: #f1f4ff;
+}
+.contactButton:hover{
+    color: white;
+    background: #3858d6;
+    box-shadow: 0 8px 20px -8px #3858d6;
+}
+
+.footer{
+    background-color: #eef2ff;
+}
+
+.company{
+    padding: 1em 0 0 10em;
+    float: left;
+}
+
+.goal{
+    width: 12em;
+    margin: 0 50em 0 0;
+    float: left;
+}
+
+.goalTitle{
+    color: #3646c5;
+    font-weight:bold;
+    font-size: 180%;
+}
+
+.goalText{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 100%;
+    line-height: 200%;
+}
+
+.links{
+    width: 12em;
+    float: left;
+}
+
+.linksTitle{
+    color: #253e71;
+    font-weight:bold;
+    font-size: 150%;
+}
+
+.linksText{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 100%;
+    line-height: 150%;
+}
+
+.bottom{
+    padding: 15em 0 5em 10em;
+}
+
+.bottom1{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 100%;
+    padding: 0 58em 0 0;
+    float: left;
+}
+
+.bottom2{
+    color:#6d7b93;
+    font-weight:bold;
+    font-size: 100%;
+    padding: 0 3em 0 0;
+    float: left;
+}
